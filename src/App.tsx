@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Container, Typography } from '@mui/material';
-import TaskInput from './components/TaskInput';
-import TaskList from './components/TaskList';
-import Filters from './components/Filters';
-import TaskCounter from './components/TaskCounter';
+import TaskInput from './components/TaskInput.tsx';
+import TaskList from './components/TaskList.tsx';
+import Filters from './components/Filters.tsx';
+import TaskCounter from './components/TaskCounter.tsx';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 
 interface Task {

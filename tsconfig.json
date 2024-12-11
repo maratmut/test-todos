@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
     "target": "es6",
     "module": "commonjs",
     "jsx": "react",

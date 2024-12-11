@@ -1,6 +1,6 @@
 import React from 'react';
 import { List } from '@mui/material';
-import TaskItem from './TaskItem';
+import TaskItem from './TaskItem.tsx';
 
 interface Task {
   id: number;
@@ -14,7 +14,7 @@ interface TaskListProps {
 }
 
 const TaskList: React.FC<TaskListProps> = ({ tasks, toggleTaskCompletion }) => {
-  
+
   return (
     <List style={{ width: '100%' }}>
       {tasks.map((task) => (
